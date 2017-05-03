@@ -15,6 +15,6 @@ FOUNDATION_EXPORT double libsnappyVersionNumber;
 FOUNDATION_EXPORT const unsigned char libsnappyVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like
-#import <libsnappy/snappy-c.h>
+#import <snappy/snappy-c.h>
 
 

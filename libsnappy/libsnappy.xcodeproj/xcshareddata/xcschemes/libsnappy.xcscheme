@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69A39C2A1EB3814800E45436"
-               BuildableName = "libsnappy.framework"
-               BlueprintName = "libsnappy"
+               BuildableName = "snappy.framework"
+               BlueprintName = "snappy"
                ReferencedContainer = "container:libsnappy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69A39C2A1EB3814800E45436"
-            BuildableName = "libsnappy.framework"
-            BlueprintName = "libsnappy"
+            BuildableName = "snappy.framework"
+            BlueprintName = "snappy"
             ReferencedContainer = "container:libsnappy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69A39C2A1EB3814800E45436"
-            BuildableName = "libsnappy.framework"
-            BlueprintName = "libsnappy"
+            BuildableName = "snappy.framework"
+            BlueprintName = "snappy"
             ReferencedContainer = "container:libsnappy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
