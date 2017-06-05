@@ -16,7 +16,7 @@
 		69263ED81EE503FD005F0C76 /* snappy-sinksource.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A39C3A1EB3817300E45436 /* snappy-sinksource.h */; };
 		69263ED91EE50400005F0C76 /* snappy-sinksource.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69A39C391EB3817300E45436 /* snappy-sinksource.cc */; };
 		69263EDA1EE50403005F0C76 /* snappy-internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A39C381EB3817300E45436 /* snappy-internal.h */; };
-		69263EDB1EE50407005F0C76 /* snappy-c.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A39C371EB3817300E45436 /* snappy-c.h */; };
+		69263EDB1EE50407005F0C76 /* snappy-c.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A39C371EB3817300E45436 /* snappy-c.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69263EDC1EE5040A005F0C76 /* snappy-c.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69A39C361EB3817300E45436 /* snappy-c.cc */; };
 		69263EDD1EE5040E005F0C76 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A39C461EB3817800E45436 /* config.h */; };
 		69A39C301EB3814800E45436 /* snappy.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A39C2E1EB3814800E45436 /* snappy.h */; settings = {ATTRIBUTES = (Public, ); }; };
