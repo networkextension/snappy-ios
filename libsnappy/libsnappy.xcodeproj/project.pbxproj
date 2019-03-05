@@ -19,6 +19,12 @@
 		69263EDB1EE50407005F0C76 /* snappy-c.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A39C371EB3817300E45436 /* snappy-c.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69263EDC1EE5040A005F0C76 /* snappy-c.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69A39C361EB3817300E45436 /* snappy-c.cc */; };
 		69263EDD1EE5040E005F0C76 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A39C461EB3817800E45436 /* config.h */; };
+		6983568A222E2EE40059D0DC /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 69835688222E2EE40059D0DC /* crc32.c */; };
+		6983568C222E2EEB0059D0DC /* crc32.h in Headers */ = {isa = PBXBuildFile; fileRef = 6983568B222E2EEB0059D0DC /* crc32.h */; };
+		6983568D222E2EEB0059D0DC /* crc32.h in Headers */ = {isa = PBXBuildFile; fileRef = 6983568B222E2EEB0059D0DC /* crc32.h */; };
+		6983568E222E30B00059D0DC /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 69835688222E2EE40059D0DC /* crc32.c */; };
+		6983568F222E30B60059D0DC /* framing2-format.c in Sources */ = {isa = PBXBuildFile; fileRef = 69835685222E2ECC0059D0DC /* framing2-format.c */; };
+		69835690222E30B80059D0DC /* framing2-format.c in Sources */ = {isa = PBXBuildFile; fileRef = 69835685222E2ECC0059D0DC /* framing2-format.c */; };
 		69A39C301EB3814800E45436 /* snappy.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A39C2E1EB3814800E45436 /* snappy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69A39C3E1EB3817300E45436 /* snappy-c.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69A39C361EB3817300E45436 /* snappy-c.cc */; };
 		69A39C3F1EB3817300E45436 /* snappy-c.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A39C371EB3817300E45436 /* snappy-c.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +44,9 @@
 		69263ECB1EE50396005F0C76 /* snappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = snappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69263ECD1EE50396005F0C76 /* snappy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = snappy.h; sourceTree = "<group>"; };
 		69263ECE1EE50396005F0C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69835685222E2ECC0059D0DC /* framing2-format.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "framing2-format.c"; sourceTree = "<group>"; };
+		69835688222E2EE40059D0DC /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
+		6983568B222E2EEB0059D0DC /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
 		69A39C2B1EB3814800E45436 /* snappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = snappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A39C2E1EB3814800E45436 /* snappy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = snappy.h; sourceTree = "<group>"; };
 		69A39C2F1EB3814800E45436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,6 +123,9 @@
 				69A39C3B1EB3817300E45436 /* snappy-stubs-internal.cc */,
 				69A39C3C1EB3817300E45436 /* snappy-stubs-internal.h */,
 				69A39C3D1EB3817300E45436 /* snappy-stubs-public.h */,
+				69835685222E2ECC0059D0DC /* framing2-format.c */,
+				69835688222E2EE40059D0DC /* crc32.c */,
+				6983568B222E2EEB0059D0DC /* crc32.h */,
 				69A39C2E1EB3814800E45436 /* snappy.h */,
 				69A39C4B1EB382C800E45436 /* snappy.cc */,
 				69A39C4D1EB382CE00E45436 /* snappy.h */,
@@ -137,6 +149,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6983568D222E2EEB0059D0DC /* crc32.h in Headers */,
 				69263ED61EE503F6005F0C76 /* snappy-stubs-internal.h in Headers */,
 				69263ECF1EE50396005F0C76 /* snappy.h in Headers */,
 				69263EDB1EE50407005F0C76 /* snappy-c.h in Headers */,
@@ -152,6 +165,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6983568C222E2EEB0059D0DC /* crc32.h in Headers */,
 				69A39C301EB3814800E45436 /* snappy.h in Headers */,
 				69A39C4E1EB382CE00E45436 /* snappy.h in Headers */,
 				69A39C401EB3817300E45436 /* snappy-internal.h in Headers */,
@@ -264,6 +278,8 @@
 				69263ED41EE503DE005F0C76 /* snappy.cc in Sources */,
 				69263ED91EE50400005F0C76 /* snappy-sinksource.cc in Sources */,
 				69263EDC1EE5040A005F0C76 /* snappy-c.cc in Sources */,
+				6983568A222E2EE40059D0DC /* crc32.c in Sources */,
+				69835690222E30B80059D0DC /* framing2-format.c in Sources */,
 				69263ED71EE503F9005F0C76 /* snappy-stubs-internal.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +291,8 @@
 				69A39C4C1EB382C800E45436 /* snappy.cc in Sources */,
 				69A39C411EB3817300E45436 /* snappy-sinksource.cc in Sources */,
 				69A39C3E1EB3817300E45436 /* snappy-c.cc in Sources */,
+				6983568E222E30B00059D0DC /* crc32.c in Sources */,
+				6983568F222E30B60059D0DC /* framing2-format.c in Sources */,
 				69A39C431EB3817300E45436 /* snappy-stubs-internal.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
